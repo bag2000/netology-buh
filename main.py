@@ -1,6 +1,7 @@
 
 if __name__ == '__main__':
-    from application import people, salary, codingshow
+    from application import salary, codingshow
+    from application.db import people
 
     salary.calculate_salary()
     people.get_employees()
